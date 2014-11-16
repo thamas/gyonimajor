@@ -421,3 +421,12 @@ Small Device Styles
   }
 
 }
+
+.major {
+  margin-top: -56px;
+  padding: 0;
+  border: 1px solid  #ebebeb;
+  -webkit-box-shadow: 0 0 5px #333;
+  box-shadow: 0 0 5px #333;
+  max-width: 100%;
+}
