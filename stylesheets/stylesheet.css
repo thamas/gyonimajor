@@ -295,10 +295,28 @@ Full-Width Styles
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+  background: url('../images/majorgraph.png');
+  background-repeat: no-repeat;
+  background-position: 0 20px;
+  -webkit-background-size: 260px auto;
+  background-size: 260px auto;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 580px) {
+  #header_wrap .inner {
+    background: url('../images/majorgraph.png'),
+                url('../images/cimer.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 20px, right 5px top 56px;
+    -webkit-background-size: 260px auto, 100px auto;
+    background-size: 260px auto, 100px auto;
+    background-color: transparent, transparent;
+  }
 }
 
 #project_title {
-  margin: 0;
+  margin: 28px 0px 0px 100px;
   color: #fff;
   font-size: 42px;
   font-weight: 700;
@@ -306,9 +324,10 @@ Full-Width Styles
 }
 
 #project_tagline {
+  margin: 10px 0px 0px 100px;
   color: #fff;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 30;
   background: none;
   text-shadow: #111 0px 0px 10px;
 }
@@ -382,7 +401,7 @@ Small Device Styles
   }
 
   .inner {
-    min-width: 320px;
+    min-width: 300px;
     max-width: 480px;
   }
 
@@ -423,7 +442,7 @@ Small Device Styles
 }
 
 .major {
-  margin-top: -56px;
+  margin-top: -48px;
   padding: 0;
   border: 1px solid  #ebebeb;
   -webkit-box-shadow: 0 0 5px #333;
