@@ -305,6 +305,11 @@ form {
 }
 .nav__link {
   color: #bbb;
+  text-decoration: none;
+}
+.nav__link:hover,
+.nav__link:active {
+  text-decoration: underline;
 }
 .nav__link.active {
   color: #fff;
@@ -319,9 +324,6 @@ form {
 }
 .nav--mod .nav__item {
   display: block;
-}
-.nav--mod .nav__link {
-  text-decoration: none;
 }
 
 /*******************************************************************************
