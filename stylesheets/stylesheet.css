@@ -263,6 +263,13 @@ form {
   padding: 20px;
 }
 
+.site-name__link {
+  color: #fff;
+}
+.site-name__link:hover,
+.site-name__link:focus {
+  text-decoration: none;
+}
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
