@@ -1,0 +1,4 @@
+# Ignore files and folders which don't have to be tracked by Git
+
+.DS_Store
+.sass-cache
