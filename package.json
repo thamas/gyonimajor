@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/thamas/gyonimajor/issues"
   },
-  "homepage": "https://github.com/thamas/gyonimajor"
+  "homepage": "https://github.com/thamas/gyonimajor",
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  }
 }
