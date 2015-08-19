@@ -17,7 +17,6 @@ I planned to restructure, refactor, use more tools etc. (
   * split the Sass source file and use a SMACS-like structure
   * use BEM(-like) naming in Sass 
   * async font load
-  * 
   * use a static site generator(?)
 )
 
